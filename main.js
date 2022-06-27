@@ -14,5 +14,10 @@ fetch(url)
     .then( data => {
         console.log(data);
         document.querySelector('h1').innerHTML = data.title;
+        let image = document.createElement('img')
+        image.src = data.hdurl
+        console.log(image)
     })
 }
+
+//create function that creates an element(param1) 
