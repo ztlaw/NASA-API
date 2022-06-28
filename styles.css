@@ -1,3 +1,18 @@
 h1{
     color: gold;
 }
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    position: relative;
+}
+
+img{
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+}
